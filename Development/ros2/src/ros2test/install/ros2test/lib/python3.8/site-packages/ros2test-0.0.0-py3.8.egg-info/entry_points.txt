@@ -1,0 +1,2 @@
+[console_scripts]
+test = ros2test.test_node:main

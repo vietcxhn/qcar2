@@ -1,0 +1,66 @@
+[2.471s] Invoking command in '/workspaces/isaac_ros-dev/ros2/src/ros2test': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes PYTHONPATH=/workspaces/isaac_ros-dev/build/ros2test/prefix_override:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2test build --build-base /workspaces/isaac_ros-dev/build/ros2test/build install --record /workspaces/isaac_ros-dev/build/ros2test/install.log --single-version-externally-managed
+[3.285s] running egg_info
+[3.286s] creating ../../../build/ros2test/ros2test.egg-info
+[3.311s] writing ../../../build/ros2test/ros2test.egg-info/PKG-INFO
+[3.311s] writing dependency_links to ../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+[3.312s] writing entry points to ../../../build/ros2test/ros2test.egg-info/entry_points.txt
+[3.312s] writing requirements to ../../../build/ros2test/ros2test.egg-info/requires.txt
+[3.312s] writing top-level names to ../../../build/ros2test/ros2test.egg-info/top_level.txt
+[3.313s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[3.364s] reading manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[3.366s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[3.367s] running build
+[3.367s] running build_py
+[3.367s] creating /workspaces/isaac_ros-dev/build/ros2test/build
+[3.368s] creating /workspaces/isaac_ros-dev/build/ros2test/build/lib
+[3.368s] creating /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.368s] copying ros2test/__init__.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.369s] copying ros2test/lane_follower.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.369s] copying ros2test/pure_pursuit.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.369s] copying ros2test/waypoints.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.370s] copying ros2test/keyboard.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.370s] copying ros2test/test_node.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.370s] copying ros2test/nav_goal_sender.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.370s] copying ros2test/odom.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.371s] copying ros2test/vehicle_control.py -> /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test
+[3.371s] running install
+[3.384s] running install_lib
+[3.407s] creating /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.407s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/__init__.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.408s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/lane_follower.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.408s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/pure_pursuit.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/waypoints.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/keyboard.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/test_node.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/nav_goal_sender.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/odom.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] copying /workspaces/isaac_ros-dev/build/ros2test/build/lib/ros2test/vehicle_control.py -> /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test
+[3.409s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/__init__.py to __init__.cpython-38.pyc
+[3.409s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/lane_follower.py to lane_follower.cpython-38.pyc
+[3.411s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+[3.415s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/waypoints.py to waypoints.cpython-38.pyc
+[3.416s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/keyboard.py to keyboard.cpython-38.pyc
+[3.418s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/test_node.py to test_node.cpython-38.pyc
+[3.419s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/nav_goal_sender.py to nav_goal_sender.cpython-38.pyc
+[3.420s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/odom.py to odom.cpython-38.pyc
+[3.421s] byte-compiling /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test/vehicle_control.py to vehicle_control.cpython-38.pyc
+[3.422s] running install_data
+[3.450s] creating /workspaces/isaac_ros-dev/install/ros2test/share/ament_index
+[3.451s] creating /workspaces/isaac_ros-dev/install/ros2test/share/ament_index/resource_index
+[3.451s] creating /workspaces/isaac_ros-dev/install/ros2test/share/ament_index/resource_index/packages
+[3.451s] copying resource/ros2test -> /workspaces/isaac_ros-dev/install/ros2test/share/ament_index/resource_index/packages
+[3.451s] copying package.xml -> /workspaces/isaac_ros-dev/install/ros2test/share/ros2test
+[3.451s] creating /workspaces/isaac_ros-dev/install/ros2test/share/ros2test/launch
+[3.452s] copying launch/sim_pure_pursuit_launch.py -> /workspaces/isaac_ros-dev/install/ros2test/share/ros2test/launch
+[3.452s] running install_egg_info
+[3.479s] Copying ../../../build/ros2test/ros2test.egg-info to /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test-0.0.0-py3.8.egg-info
+[3.480s] running install_scripts
+[3.603s] Installing keyboard script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.604s] Installing lane_follower script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.604s] Installing nav_goal_sender script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.604s] Installing odom script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.604s] Installing pure_pursuit script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.605s] Installing test script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.605s] Installing waypoints script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[3.605s] writing list of installed files to '/workspaces/isaac_ros-dev/build/ros2test/install.log'
+[3.682s] Invoked command in '/workspaces/isaac_ros-dev/ros2/src/ros2test' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes PYTHONPATH=/workspaces/isaac_ros-dev/build/ros2test/prefix_override:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2test build --build-base /workspaces/isaac_ros-dev/build/ros2test/build install --record /workspaces/isaac_ros-dev/build/ros2test/install.log --single-version-externally-managed

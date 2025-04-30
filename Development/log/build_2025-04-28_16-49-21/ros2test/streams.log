@@ -1,0 +1,27 @@
+[0.711s] Invoking command in '/workspaces/isaac_ros-dev/ros2/src/ros2test': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes_copy:/workspaces/isaac_ros-dev/install/qcar2_nodes PYTHONPATH=/workspaces/isaac_ros-dev/build/ros2test/prefix_override:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2test build --build-base /workspaces/isaac_ros-dev/build/ros2test/build install --record /workspaces/isaac_ros-dev/build/ros2test/install.log --single-version-externally-managed
+[0.905s] running egg_info
+[0.912s] writing ../../../build/ros2test/ros2test.egg-info/PKG-INFO
+[0.912s] writing dependency_links to ../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+[0.912s] writing entry points to ../../../build/ros2test/ros2test.egg-info/entry_points.txt
+[0.912s] writing requirements to ../../../build/ros2test/ros2test.egg-info/requires.txt
+[0.912s] writing top-level names to ../../../build/ros2test/ros2test.egg-info/top_level.txt
+[0.925s] reading manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.926s] running build_py
+[0.926s] running install
+[0.929s] running install_lib
+[0.936s] running install_data
+[0.942s] running install_egg_info
+[0.949s] removing '/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test-0.0.0-py3.8.egg-info' (and everything under it)
+[0.949s] Copying ../../../build/ros2test/ros2test.egg-info to /workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages/ros2test-0.0.0-py3.8.egg-info
+[0.950s] running install_scripts
+[0.981s] Installing keyboard script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] Installing lane_follower script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] Installing nav_goal_sender script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] Installing odom script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] Installing pure_pursuit script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] Installing test script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] Installing waypoints script to /workspaces/isaac_ros-dev/install/ros2test/lib/ros2test
+[0.981s] writing list of installed files to '/workspaces/isaac_ros-dev/build/ros2test/install.log'
+[1.004s] Invoked command in '/workspaces/isaac_ros-dev/ros2/src/ros2test' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes_copy:/workspaces/isaac_ros-dev/install/qcar2_nodes PYTHONPATH=/workspaces/isaac_ros-dev/build/ros2test/prefix_override:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/ros2test/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2test build --build-base /workspaces/isaac_ros-dev/build/ros2test/build install --record /workspaces/isaac_ros-dev/build/ros2test/install.log --single-version-externally-managed

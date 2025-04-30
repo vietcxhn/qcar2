@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (ros2test) JobQueued: {'identifier': 'ros2test', 'dependencies': OrderedDict()}
+[0.000253] (ros2test) JobStarted: {'identifier': 'ros2test'}
+[0.099657] (-) TimerEvent: {}
+[0.199970] (-) TimerEvent: {}
+[0.300201] (-) TimerEvent: {}
+[0.400446] (-) TimerEvent: {}
+[0.500655] (-) TimerEvent: {}
+[0.556794] (ros2test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/ros2test', 'build', '--build-base', '/workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build', 'install', '--record', '/workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/isaac_ros-dev/ros2/src/ros2test', 'env': {'NPP_VERSION': '11.8.0.86', 'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'DALI_BUILD': '5838886', 'CUSOLVER_VERSION': '11.4.1.48', 'USER_UID': '1000', 'CUBLAS_VERSION': '11.11.3.6', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'viet-B760M-DS3H-AX', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/usr/local/share/middleware_profiles/rtps_udp_profile.xml', 'DCGM_VERSION': '2.2.9', 'NVIDIA_REQUIRE_CUDA': 'cuda>=9.0', 'CUFFT_VERSION': '10.9.0.58', 'CUDA_CACHE_DISABLE': '1', 'NCCL_VERSION': '2.15.1', 'CUSPARSE_VERSION': '11.7.5.86', 'ENV': '/etc/shinit_v2', 'PWD': '/workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test', 'OPENUCX_VERSION': '1.14.0', 'NSIGHT_SYSTEMS_VERSION': '2022.3.1.43', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'POLYGRAPHY_VERSION': '0.38.0', 'TF_ENABLE_WINOGRAD_NONFUSED': '1', 'TRT_VERSION': '8.5.0.12', 'USER_GID': '1000', 'NVIDIA_PRODUCT_NAME': 'Triton Server', 'RDMACORE_VERSION': '36.0', 'HOME': '/home/admin', 'USERNAME': 'admin', 'LANG': 'en_US.UTF-8', 'CUDA_VERSION': '11.8.0.062', 'CURAND_VERSION': '10.3.0.86', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CUTENSOR_VERSION': '1.6.1.5', 'TRITON_SERVER_GPU_ENABLED': '1', 'HPCX_VERSION': '2.12.1a0', 'PYTHONPATH': '/workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/prefix_override:/workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python', 'COLCON': '1', 'TERM': 'xterm', 'TRITON_SERVER_VERSION': '2.26.0', 'GDRCOPY_VERSION': '2.3', 'USER': 'viet', 'OPENMPI_VERSION': '4.1.4', 'NVJPEG_VERSION': '11.9.0.86', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs:', 'DISPLAY': ':1', 'SHLVL': '1', 'BASH_ENV': '/etc/bash.bashrc', 'TF_AUTOTUNE_THRESHOLD': '2', 'CUDNN_VERSION': '8.6.0.163', 'NSIGHT_COMPUTE_VERSION': '2022.3.0.22', 'DALI_VERSION': '1.17.0', 'NVIDIA_TRITON_SERVER_VERSION': '22.09', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib', 'NVIDIA_BUILD_ID': '44909143', 'ROS_LOCALHOST_ONLY': '0', 'OMPI_MCA_coll_hcoll_enable': '0', 'OPAL_PREFIX': '/opt/hpcx/ompi', 'CUDA_DRIVER_VERSION': '520.61.03', '_CUDA_COMPAT_PATH': '/usr/local/cuda/compat', 'PATH': '/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao', 'TRITON_SERVER_USER': 'triton-server', 'PYTHONWARNINGS': 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources', 'MOFED_VERSION': '5.4-rdmacore36.0', 'TRTOSS_VERSION': '', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DISTRO': 'humble', 'TF_ADJUST_HUE_FUSED': '1', 'TF_ADJUST_SATURATION_FUSED': '1', 'SHARP_COLL_ENABLE_CUDA': '0', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'OLDPWD': '/workspaces/isaac_ros-dev/ros2/src', '_': '/usr/bin/env'}, 'shell': False}
+[0.600760] (-) TimerEvent: {}
+[0.700999] (-) TimerEvent: {}
+[0.745254] (ros2test) StdoutLine: {'line': b'running egg_info\n'}
+[0.745558] (ros2test) StdoutLine: {'line': b'creating build/ros2test/ros2test.egg-info\n'}
+[0.751289] (ros2test) StdoutLine: {'line': b'writing build/ros2test/ros2test.egg-info/PKG-INFO\n'}
+[0.751421] (ros2test) StdoutLine: {'line': b'writing dependency_links to build/ros2test/ros2test.egg-info/dependency_links.txt\n'}
+[0.751499] (ros2test) StdoutLine: {'line': b'writing entry points to build/ros2test/ros2test.egg-info/entry_points.txt\n'}
+[0.751553] (ros2test) StdoutLine: {'line': b'writing requirements to build/ros2test/ros2test.egg-info/requires.txt\n'}
+[0.751598] (ros2test) StdoutLine: {'line': b'writing top-level names to build/ros2test/ros2test.egg-info/top_level.txt\n'}
+[0.751641] (ros2test) StdoutLine: {'line': b"writing manifest file 'build/ros2test/ros2test.egg-info/SOURCES.txt'\n"}
+[0.763252] (ros2test) StdoutLine: {'line': b"reading manifest file 'build/ros2test/ros2test.egg-info/SOURCES.txt'\n"}
+[0.763711] (ros2test) StdoutLine: {'line': b"writing manifest file 'build/ros2test/ros2test.egg-info/SOURCES.txt'\n"}
+[0.763834] (ros2test) StdoutLine: {'line': b'running build\n'}
+[0.763929] (ros2test) StdoutLine: {'line': b'running build_py\n'}
+[0.764099] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build\n'}
+[0.764183] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build/lib\n'}
+[0.764245] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build/lib/ros2test\n'}
+[0.764302] (ros2test) StdoutLine: {'line': b'copying ros2test/test_node.py -> /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build/lib/ros2test\n'}
+[0.764363] (ros2test) StdoutLine: {'line': b'copying ros2test/__init__.py -> /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build/lib/ros2test\n'}
+[0.764419] (ros2test) StdoutLine: {'line': b'running install\n'}
+[0.766943] (ros2test) StdoutLine: {'line': b'running install_lib\n'}
+[0.772906] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages/ros2test\n'}
+[0.773051] (ros2test) StdoutLine: {'line': b'copying /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build/lib/ros2test/test_node.py -> /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages/ros2test\n'}
+[0.773121] (ros2test) StdoutLine: {'line': b'copying /workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/build/lib/ros2test/__init__.py -> /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages/ros2test\n'}
+[0.773351] (ros2test) StdoutLine: {'line': b'byte-compiling /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages/ros2test/test_node.py to test_node.cpython-38.pyc\n'}
+[0.773663] (ros2test) StdoutLine: {'line': b'byte-compiling /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages/ros2test/__init__.py to __init__.cpython-38.pyc\n'}
+[0.773794] (ros2test) StdoutLine: {'line': b'running install_data\n'}
+[0.779358] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/share/ament_index\n'}
+[0.779465] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/share/ament_index/resource_index\n'}
+[0.779520] (ros2test) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/share/ament_index/resource_index/packages\n'}
+[0.779549] (ros2test) StdoutLine: {'line': b'copying resource/ros2test -> /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/share/ament_index/resource_index/packages\n'}
+[0.779578] (ros2test) StdoutLine: {'line': b'copying package.xml -> /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/share/ros2test\n'}
+[0.779624] (ros2test) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.785770] (ros2test) StdoutLine: {'line': b'Copying build/ros2test/ros2test.egg-info to /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/python3.8/site-packages/ros2test-0.0.0-py3.8.egg-info\n'}
+[0.786184] (ros2test) StdoutLine: {'line': b'running install_scripts\n'}
+[0.801079] (-) TimerEvent: {}
+[0.816895] (ros2test) StdoutLine: {'line': b'Installing test script to /workspaces/isaac_ros-dev/ros2/src/ros2test/install/ros2test/lib/ros2test\n'}
+[0.817053] (ros2test) StdoutLine: {'line': b"writing list of installed files to '/workspaces/isaac_ros-dev/ros2/src/ros2test/build/ros2test/install.log'\n"}
+[0.838870] (ros2test) CommandEnded: {'returncode': 0}
+[0.858158] (ros2test) JobEnded: {'identifier': 'ros2test', 'rc': 0}
+[0.858620] (-) EventReactorShutdown: {}

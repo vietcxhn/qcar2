@@ -1,0 +1,8 @@
+[console_scripts]
+keyboard = ros2test.keyboard:main
+lane_follower = ros2test.lane_follower:main
+nav_goal_sender = ros2test.nav_goal_sender:main
+odom = ros2test.odom:main
+pure_pursuit = ros2test.pure_pursuit:main
+test = ros2test.test_node:main
+waypoints = ros2test.waypoints:main
