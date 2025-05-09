@@ -42,8 +42,9 @@ RUN apt-get update && apt-get install -y \
     python3-opencv \
     python3-pyqtgraph \
     python3-transforms3d \
-    nano \
     && rm -rf /var/lib/apt/lists/*
+    
+RUN apt-get update && apt-get install -y nano
 
 # Put a modified version of QLabs resources installer on image and
 # Run the QLabs resources installer, but
@@ -66,7 +67,6 @@ ENV QAL_DIR=/QLabs_Resources/
 ENV PYTHONPATH=/QLabs_Resources/libraries/python/
 ENV RTMODELS_DIR=/virtual_plants/rt_models/
 
-RUN apt update && apt install -y nano
 
 CMD ["bash"]
 

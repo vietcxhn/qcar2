@@ -66,7 +66,7 @@ class KeyboardTest(Node):
         THROTTLE_INCREMENT = 0.02  # Speed increase per frame when key held
         STEERING_INCREMENT = 0.03  # Steering increase per frame when key held
         DECAY_RATE = 0.95          # Multiplicative decay when no keys held
-        MAX_THROTTLE = 0.5         # Maximum throttle value
+        MAX_THROTTLE = 1           # Maximum throttle value
         MAX_STEERING = 0.7         # Maximum steering value
 
         # Start listening for keyboard input

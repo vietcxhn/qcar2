@@ -29,7 +29,7 @@ follower_id = 1
 # Spawn cars
 leader.spawn_id(actorNumber=leader_id, location=[0, 0, 0], rotation=[0, 0, 0],
         scale=[0.1, 0.1, 0.1])
-follower.spawn_id(actorNumber=follower_id, location=[-5, -5, 0], 
+follower.spawn_id(actorNumber=follower_id, location=[-5.5, -5, 0], 
         rotation=[0, 0, 0], scale=[0.1, 0.1, 0.1])
 
 rtModel = os.path.normpath(os.path.join(os.environ['RTMODELS_DIR'], 'QCar2/QCar2_Workspace_studio'))
